@@ -22,7 +22,9 @@ const News = () => {
 								<img src="./ln2.jpg" alt="" />
 							</div>
 							<div className="item-right">
-								<h4>The Big Event Conference</h4>
+								<a href="#">
+									<h4>The Big Event Conference</h4>
+								</a>
 								<p>
 									At vero eos et accusamus et iusto
 									dignissimos
@@ -100,7 +102,9 @@ const News = () => {
 								<img src="./ln3.jpg" alt="" />
 							</div>
 							<div className="item-right">
-								<h4>The Big Event Conference</h4>
+								<a href="#">
+									<h4>The Big Event Conference</h4>
+								</a>
 								<p>
 									At vero eos et accusamus et iusto
 									dignissimos
@@ -178,7 +182,9 @@ const News = () => {
 								<img src="./ln4.jpg" alt="" />
 							</div>
 							<div className="item-right">
-								<h4>The Big Event Conference</h4>
+								<a href="#">
+									<h4>The Big Event Conference</h4>
+								</a>
 								<p>
 									At vero eos et accusamus et iusto
 									dignissimos
