@@ -1,7 +1,9 @@
 // import { useEffect } from "react";
 import About from "../../component/about/About";
+import Contact from "../../component/contact/Contact";
 import Features from "../../component/features/Features";
 import Feedback from "../../component/feedback/Feedback";
+import Footer from "../../component/footer/Footer";
 import Header from "../../component/header/Header";
 import Navbar from "../../component/navbar/Navbar";
 import News from "../../component/news/News";
@@ -25,6 +27,8 @@ const Home = () => {
 			<Projects />
 			<Feedback />
 			<News />
+			<Contact />
+			<Footer />
 		</div>
 	);
 };

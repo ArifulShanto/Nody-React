@@ -1,0 +1,99 @@
+.footer{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-image: url("./hBackground.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50%;
+    background-color: #292d32;
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            .left{
+                flex: 2;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 20px;
+                img{
+                    height: 35px;
+                    width: auto;
+                }
+                p{
+                    line-height: 1.6;
+                    padding-right: 15px;
+                    color: hsla(0,0%,100%,.5);
+                }
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: hsla(0,0%,100%,.5);
+                    svg{
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .right{
+                flex:4;
+                display: flex;
+                justify-content: space-evenly;
+
+                .menu{
+                    h3{
+                        color: #ffff;
+                        font-size: 22px;
+                        font-weight: 500;
+                        margin-bottom: 20px;
+                    }
+
+                    ul{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: 15px;
+
+                        li{
+
+                            a{
+                                color: hsla(0,0%,100%,.5);
+                                font-size: 16px;
+                                transition: .5s all;
+
+                                &:hover{
+                                    color: #ffff;
+                                    margin-left: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+
+            p{
+                font-size: 15px;
+                color: hsla(0,0%,100%,.5);
+
+            }
+        }
+        
+    }
+}
